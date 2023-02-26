@@ -1,0 +1,14 @@
+## Update notes
+Commit 3: city_bikes.ipynb
+- Added time.sleep(1) under each API call to avoid data loss while response is being gathered
+- Integrated getNetworks_df() into getNetwork_id to reduce redundancy
+- Standardized delay after calls into new constant CALL_DELAY
+Commit 5: yelp_foursquare_EDA.ipynb
+- changes to reduce calls made to foursquare API:
+    - getPOIDetails_FSQR() function has been assimilated into getPOIs_FSQR()
+    - adjusted call to provide 'rating' and 'stats'
+- Added manual insertion of params into url
+- Added call delay
+- Changed API_KEY to FOURSQUARE_API_KEY for clarity
+- Removed popularity and total_stats from Foursquare results
+
