@@ -21,3 +21,12 @@ Commit 6: yelp_foursquare_EDA.ipynb
 Commit 7: city_bikes.ipynb, yelp_foursquare_EDA.ipynb
 - Ingested name and unique id for each bike station into to the pipeline at the city_bikes notebook
 - adjusted yelp_foursquare_EDA notebook to process station names and identifiers
+
+Commit 8: yelp_foursquare_EDA.ipynb
+- changed df.append() methods to pd.concat() to avoid deprecation and eliminate excessive warning output
+- fixed issue where yelp lat and long were not changed each iteration
+- removed JSON import from IPython
+- removed redundant casting to str from getLatLong()
+- moved parameters to set-up, so that they can be changed simultaneously for both APIs
+
+Commit 9:
