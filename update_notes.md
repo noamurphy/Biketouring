@@ -17,3 +17,7 @@ Commit 5: yelp_foursquare_EDA.ipynb
 Commit 6: yelp_foursquare_EDA.ipynb
 - Completed framework for interfacing with Yelp API
 - Added API columns to tag the originating API
+
+Commit 7: city_bikes.ipynb, yelp_foursquare_EDA.ipynb
+- Ingested name and unique id for each bike station into to the pipeline at the city_bikes notebook
+- adjusted yelp_foursquare_EDA notebook to process station names and identifiers
