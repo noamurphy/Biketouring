@@ -29,4 +29,5 @@ Commit 8: yelp_foursquare_EDA.ipynb
 - removed redundant casting to str from getLatLong()
 - moved parameters to set-up, so that they can be changed simultaneously for both APIs
 
-Commit 9:
+Commit 9: city_bikes.ipynb
+- updated table outputs and format to be suitable for export to a structured database
