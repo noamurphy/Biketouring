@@ -1,4 +1,5 @@
 # Biketouring
+#### Notebooks must be run in the order \[[city_bikes](notebooks/city_bikes.ipynb) > [yelp_foursquare_EDA](notebooks/yelp_foursquare_EDA.ipynb) > [joining_data](notebooks/joining_data.ipynb) > [model_building](notebooks/model_building.ipynb)\] to populate data and images folders with necessary files
 
 ## Project/Goals
 - retrieve bikeloan data from citybik.es API
