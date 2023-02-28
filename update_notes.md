@@ -31,3 +31,8 @@ Commit 8: yelp_foursquare_EDA.ipynb
 
 Commit 9: city_bikes.ipynb
 - updated table outputs and format to be suitable for export to a structured database
+
+Commit 10: yelp_foursquare_EDA.ipynb, city_bikes.ipynb
+- made minor changes to EDA and citybikes notebooks to prepare data for database
+- reorganized citybikes notebook for increased autonomy
+- changed export location of citybikes csv files to data folder
