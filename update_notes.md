@@ -41,3 +41,11 @@ Commit 10: yelp_foursquare_EDA.ipynb, city_bikes.ipynb
 Commit 11: yelp_foursquare_EDA.ipynb, joining_data.ipynb
 - updates to EDA notebook meant for commit 10
 - finished framework for sql database creation and data insertion
+
+Commit 13: yelp_foursquare_EDA.ipynb, joining_data.ipynb, model_building.ipynb, data
+- fixed issue in model generation
+- completed base Yelp vs Foursquare comparison
+- added lineplot generation for yelp vs foursquare generation
+- embedded lineplot in joining_data.csv
+- test run of full pipeline completed successfully
+- included necessary directories inside of data directory
